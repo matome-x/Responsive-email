@@ -1,6 +1,6 @@
  Responsive Email Template
 
-This repository contains a fully responsive HTML email template designed for ABSA. The template is optimized for a wide range of devices and email clients, ensuring consistent rendering across desktops, tablets, and mobile devices.
+This repository contains a fully responsive HTML email template designed. The template is optimized for a wide range of devices and email clients, ensuring consistent rendering across desktops, tablets, and mobile devices.
 
 Features
 
@@ -15,3 +15,4 @@ Inline CSS: All styles are inlined for maximum compatibility across email client
 Call-to-Action (CTA) Buttons: Styled buttons that work across all supported email clients.
 
 Accessibility Considerations: Includes proper semantic HTML and contrast for readability.
+ I have used Html ,css and mediaQueriesto accomplish the task 
