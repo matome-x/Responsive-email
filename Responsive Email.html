@@ -1,0 +1,301 @@
+<!--Email Template -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charlse Absa mailer</title>
+
+<style type="text/css">
+body, p, td {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #131010;
+  margin: 0;
+  padding: 0;
+}
+.intro {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 8px;
+  line-height: 1;
+  color: #ff335a !important;
+  font-display: fallback;
+}
+h1 { font-size: 20px; color: #ffffff; margin: 0; line-height:1.2; }
+h2 { font-size: 16px; color: #ffffff; margin: 0; line-height:1.2; }
+h3 { font-size: 14px; color: #dc0037; margin: 0; line-height:1.2; }
+
+.wrapper {
+  width: 100%;
+  max-width: 848px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 10px;
+  border: 10px solid #dc0037;
+}
+
+.pricing {
+  width: 822px;
+   background: solid #dc0037;
+  border-collapse: collapse;
+  margin: 10px 0;
+  color: #ffffff;
+  font-size: 8px;
+  align:center;
+  max-width:100%;
+}
+
+.pricing th {
+  padding: 10px;
+  border: 2px solid #fff;
+  background: #77021e;
+  font-weight: bold;
+  text-align: left;
+}
+
+.pricing td {
+  padding: 10px;
+  border: 2px solid #fff;
+  background: #95052a;
+  font-weight: bold;
+  text-align: left;
+}
+
+.note {
+  font-style: italic;
+  margin: 10px 0;
+}
+
+.benefits ul {
+  list-style: disc;
+  padding-left: 25px;
+  margin: 0;
+}
+
+.cta {
+  margin: 30px 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #dc0037;
+}
+
+footer {
+  margin-top: 4px;
+  padding: 18px;
+  background: #dc0037;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+}
+
+/* break points */
+@media only screen and (max-width: 481px) {
+  body, p, td { font-size: 10px !important; }
+  h1 { font-size: 20px !important; }
+  h2 { font-size: 16px !important; }
+  h3 { font-size: 14px !important; }
+  .cta { font-size: 13px !important; padding-left: 18px; }
+  footer { font-size: 10px !important; }
+  .intro { font-size: 12px !important; }
+  .pricing th, .pricing td { padding: 6px !important; font-size: 10px !important; }
+  .wrapper { padding: 10px !important; }
+  .Notes{padding: left 18px; }
+}
+@media only screen and (max-width: 481px) {
+    body, p, td { font-size: 10px !important; }
+    h1 { font-size: 20px !important; }
+    h2 { font-size: 16px !important; }
+    h3 { font-size: 14px !important; }
+    .pricing td, .pricing th {
+        font-size: 10px !important;
+        padding: 6px !important;
+    }
+    .wrapper { padding: 10px !important; }
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+    .pricing { width: 100% !important; }
+    .pricing td, .pricing th {
+        padding: 6px !important;
+        font-size: 10px !important;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .pricing { width: 100% !important; max-width:100% !important; }
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .pricing { max-width: 100% !important; }
+}
+
+
+/* Dark Mode Support */
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+  }
+  .wrapper {
+    background-color: #1a1a1a !important;
+    border-color: #a4002a !important;
+  }
+  p, td, span, li { color: #ffffff !important; }
+  h1, h2, h3 { color: #ff335a !important; }
+  .pricing { background-color: #1a1a1a !important; }
+  .pricing th { background-color: #5c0016 !important; color: #ffffff !important; border-color: #333333 !important; }
+  .pricing td { background-color: #33000c !important; color: #ffffff !important; border-color: #333333 !important; }
+  .cta { color: #ff335a !important; }
+  footer { background-color: #a4002a !important; color: #ffffff !important; }
+ 
+}
+
+/* Gmail Dark Mode */
+u + #body .wrapper { background-color: #1a1a1a !important; }
+u + #body p, u + #body td, u + #body span, u + #body li { color: #ffffff !important; }
+u + #body h1, u + #body h2, u + #body h3 { color: #ff335a !important; }
+u + #body footer { background-color: #a4002a !important; }
+
+</style>
+</head>
+
+<body>
+    <center>
+        <table class="wrapper" width="100%" cellpadding="0" cellspacing="0">
+            <tr>
+                <td>
+
+                    <!-- Banner -->
+                    <table width="100%" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td class="banner" style="background-color:#ffffff;">
+                                <a href="#">
+                                    <img src="https://image.engage.absa.africa/lib/fe3611717564047f721076/m/1/3cf7bf35-7e41-463f-a7c4-591610f8a4db.png" 
+                                         alt="Absa Banner" width="100%" style="display:block; max-width:848px;"/>
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <!-- Intro Text -->
+                    <table width="100%" style="max-width:700px;" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td style="padding: 10px 18px;">
+                                <p style="color:#ff335a;text-align:left;font: size 20px;"><strong>Dear [name and surname],</strong></p>
+                                <br>
+                                <p style="text-align:left;font: size 18px;">
+                                    Absa is introducing an exciting tailor-made pricing solution for commercial merchants.
+                                    This model gives you flexible tiered pricing that improves as your turnover increases.
+                                    <strong>The higher your turnover, the lower your card fees.
+                                    Merchants processing over R1 million monthly also receive a full device rental rebate
+                                    (up to two devices).</strong>
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <table class="pricing" cellpadding="0" cellspacing="0" >
+                        <tr>
+                            <td>
+
+                                <p class="section-title" style="color:#ffffff; margin:0 0 10px 0;">
+                                1. Tiered pricing structure: Proposed tiers and rates:
+                                </p>
+                                    <!-- Pricing Table -->
+                                <table class="pricing" width="750px" style="padding:18px 18px 18px;  height:fit-content" cellpadding="0" cellspacing="0" align="center" >
+                                        <tr>
+                                            <th>Tier</th>
+                                            <th>Monthly Turnover</th>
+                                            <th>Credit Card</th>
+                                            <th>Debit Card</th>
+                                            <th>Card Not Present</th>
+                                            <th>International</th>
+                                            <th>Rewards</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Tier 1</td>
+                                            <td>R0 – R1m</td>
+                                            <td>1.94%</td>
+                                            <td>0.94%</td>
+                                            <td>2.45%</td>
+                                            <td>2.95%</td>
+                                            <td>No rebate</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Tier 2</td>
+                                            <td>R1m – R2m</td>
+                                            <td>1.75%</td>
+                                            <td>0.75%</td>
+                                            <td>2.25%</td>
+                                            <td>2.95%</td>
+                                            <td>1 × R399 rebate</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Tier 3</td>
+                                            <td>> R2m</td>
+                                            <td>1.74%</td>
+                                            <td>0.74%</td>
+                                            <td>2.25%</td>
+                                            <td>2.95%</td>
+                                            <td>2 × R399 rebates</td>
+                                        </tr>
+                                   </table>
+                            </td>
+                        </tr>
+                  </table>
+
+                    <br>
+
+                    <!-- Notes & Benefits -->
+                    <table width="100%" style="max-width:700px;" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td>
+                                <p style="padding:10px 18px;">*All new merchants start on Tier 1 in Month 1.</p>
+                                <p style="padding:10px 18px;">*Settlement must be into an Absa transactional account to qualify.</p>
+
+                                <p style="padding:10px 18px;"><strong>2. Device Rebate Component</strong></p>
+                                <p style="padding-left: 18px;">
+                                    Merchants exceeding R1 million monthly turnover qualify for a device rebate
+                                    in the following month. Over R2 million qualifies for two devices.
+                                </p>
+
+                                <p style="padding:10px 18px;"><strong>Additional Benefits:</strong></p>
+                                <ul>
+                                    <li>Fully supported device with maintenance, warranty, installation, and data included.</li>
+                                    <li>Rates that decrease as your business grows.</li>
+                                    <li>Access to Merchant Portal & PocketFlow Lite for business insights.</li>
+                                    <li>Merchant cash advance options available.</li>
+                                    <li>eCommerce gateways for online payments.</li>
+                                    <li>Pay in your own currency options.</li>
+                                </ul>
+
+                                <p class="cta" style="padding-left: 18px;">
+                                    To take advantage of this offer, email us at: <strong>Paymentacceptance1@absa.africa</strong>
+                                </p>
+
+                                <p class="notes"style="padding: 0 18px 14px;" >Kind regards,<br>The Payment Acceptance Team</p>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <!-- Footer -->
+                    <footer text-align="center";>
+                        Terms and conditions apply. Absa is an Authorised Financial Services Provider.<br>
+                        Email disclaimer: absa.co.za/disclaimer<br>
+                        To unsubscribe, email: unsubscribe@absa.co.za
+                    </footer>
+
+                </td>
+            </tr>
+        </table>
+    </center>
+</body>
+</html>
+
+<!-- responsive mailer by matt for testing -->
